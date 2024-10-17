@@ -1,0 +1,1 @@
+You can add and enable the Benchmark scene (Assets/SharedAssets/Benchmark/BenchmarkScene.unity ) as first scene in the scene list for building, and running the player will automatically run a benchmark monitoring performances through all scenes in the project.

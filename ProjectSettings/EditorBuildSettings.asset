@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/SharedAssets/Benchmark/BenchmarkScene.unity
     guid: d1335b3b949d2e646b481776723757a2
   - enabled: 1

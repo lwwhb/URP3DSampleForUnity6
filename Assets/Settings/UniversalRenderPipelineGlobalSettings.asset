@@ -58,7 +58,19 @@ MonoBehaviour:
       - rid: 5246156137550577665
       - rid: 5246156137550577666
     m_RuntimeSettings:
-      m_List: []
+      m_List:
+      - rid: 5745923602207997952
+      - rid: 5745923602207997953
+      - rid: 5745923602207997955
+      - rid: 5745923602207997956
+      - rid: 5745923602207997958
+      - rid: 5745923602207997961
+      - rid: 5745923602207997962
+      - rid: 5745923602207997963
+      - rid: 5745923602207997967
+      - rid: 5745923602207997969
+      - rid: 1967624837779685376
+      - rid: 5246156137550577666
   m_AssetVersion: 8
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
@@ -276,7 +288,7 @@ MonoBehaviour:
         m_Version: 0
         m_ExportShaderVariants: 1
         m_ShaderVariantLogLevel: 0
-        m_StripRuntimeDebugShaders: 1
+        m_StripRuntimeDebugShaders: 0
     - rid: 5745923602207997968
       type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:

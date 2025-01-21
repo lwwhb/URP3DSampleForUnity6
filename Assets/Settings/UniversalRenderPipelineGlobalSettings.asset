@@ -58,19 +58,7 @@ MonoBehaviour:
       - rid: 5246156137550577665
       - rid: 5246156137550577666
     m_RuntimeSettings:
-      m_List:
-      - rid: 5745923602207997952
-      - rid: 5745923602207997953
-      - rid: 5745923602207997955
-      - rid: 5745923602207997956
-      - rid: 5745923602207997958
-      - rid: 5745923602207997961
-      - rid: 5745923602207997962
-      - rid: 5745923602207997963
-      - rid: 5745923602207997967
-      - rid: 5745923602207997969
-      - rid: 1967624837779685376
-      - rid: 5246156137550577666
+      m_List: []
   m_AssetVersion: 8
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
@@ -129,7 +117,7 @@ MonoBehaviour:
       type: {class: LightmapSamplingSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_Version: 1
-        m_UseBicubicLightmapSampling: 0
+        m_UseBicubicLightmapSampling: 1
     - rid: 5246156137550577666
       type: {class: VrsRenderPipelineRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:

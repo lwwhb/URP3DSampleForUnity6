@@ -1,13 +1,18 @@
 fileFormatVersion: 2
 guid: a7210b37fe595294b915a0b95d9fb6cf
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: TrimWooden_01_Mat
+    second: {fileID: 2100000, guid: 3ae451ca8391641499f5323d11a8bd4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrimWooden_01_Mat.059
     second: {fileID: 2100000, guid: 3ae451ca8391641499f5323d11a8bd4e, type: 2}
   - first:
       type: UnityEngine:Material
@@ -27,6 +32,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: WoodPlank_01_MAT.002
+    second: {fileID: 2100000, guid: 6eaca43113c33b54ebc04249a1642489, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: WoodTrim_01_Mat
     second: {fileID: 2100000, guid: 3ae451ca8391641499f5323d11a8bd4e, type: 2}
   materials:
@@ -41,8 +51,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -68,6 +76,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -85,6 +94,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

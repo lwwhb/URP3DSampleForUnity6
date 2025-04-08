@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: f181b4b310be5644fbcf2d249a648710
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -12,7 +12,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: RoofOrnament_01_Mat.004
+    second: {fileID: 2100000, guid: ff644b58ea645c947be44a071b21eaf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roof_01_Mat
+    second: {fileID: 2100000, guid: e3bea24992ea32e48a661cd51ef54462, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_01_Mat.010
     second: {fileID: 2100000, guid: e3bea24992ea32e48a661cd51ef54462, type: 2}
   - first:
       type: UnityEngine:Material
@@ -32,12 +42,22 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: TrimRoof_01_Mat.016
+    second: {fileID: 2100000, guid: 7a464453127bce447937ae8efed30e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: TrimRoof_02_Mat
     second: {fileID: 2100000, guid: 96a5769bfab61a445bfbc8b28003c212, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: TrimWooden_01_Mat
+    second: {fileID: 2100000, guid: 3ae451ca8391641499f5323d11a8bd4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrimWooden_01_Mat.025
     second: {fileID: 2100000, guid: 3ae451ca8391641499f5323d11a8bd4e, type: 2}
   - first:
       type: UnityEngine:Material
@@ -66,8 +86,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -93,6 +111,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -110,6 +129,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

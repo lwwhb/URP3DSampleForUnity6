@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Ground_Grass_01_Mesh.001
+    second: {fileID: 2100000, guid: 98458e5340227cb4eaf5dba31c117709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: checker_map_gravity
     second: {fileID: 2100000, guid: 98458e5340227cb4eaf5dba31c117709, type: 2}
   materials:
@@ -68,7 +73,7 @@ ModelImporter:
     optimizeBones: 1
     generateMeshLods: 1
     meshLodGenerationFlags: 0
-    maximumMeshLod: 32
+    maximumMeshLod: 3
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

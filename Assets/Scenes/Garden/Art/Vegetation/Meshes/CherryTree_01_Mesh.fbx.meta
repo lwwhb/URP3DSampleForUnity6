@@ -1,9 +1,29 @@
 fileFormatVersion: 2
 guid: d6b4c7ca429475f4399dfbc72b37e1ef
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CherryAtlas_Mat.001
+    second: {fileID: 2100000, guid: 7037fd9cefc19ed4c8c2202d97d06b40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cherry_Tree_BarkRough_Mat.008
+    second: {fileID: 2100000, guid: 808080ea931d0ea4983ec0494354a101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cherry_Tree_Bark_Mat.007
+    second: {fileID: 2100000, guid: e43d3fdb3d87a7d4db4362068d4fbe7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knot_01_Mat.007
+    second: {fileID: 2100000, guid: f725de1af5c3da645b76dd08fc2bd951, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,8 +36,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -43,6 +61,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -60,6 +79,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: 3
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

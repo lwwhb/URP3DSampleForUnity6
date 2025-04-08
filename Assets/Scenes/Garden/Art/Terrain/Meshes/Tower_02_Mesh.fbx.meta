@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b4a6fba9a9bf37c449733c19cba4af56
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -12,7 +12,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: PlasterWall_01_Mat.023
+    second: {fileID: 2100000, guid: 797c2d8035653644bb8099231152e18d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roof_01_Mat
+    second: {fileID: 2100000, guid: e3bea24992ea32e48a661cd51ef54462, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof_01_Mat.013
     second: {fileID: 2100000, guid: e3bea24992ea32e48a661cd51ef54462, type: 2}
   - first:
       type: UnityEngine:Material
@@ -22,7 +32,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: TrimRoof_01_Mat.019
+    second: {fileID: 2100000, guid: 7a464453127bce447937ae8efed30e21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: TrimWooden_01_Mat
+    second: {fileID: 2100000, guid: 3ae451ca8391641499f5323d11a8bd4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrimWooden_01_Mat.067
     second: {fileID: 2100000, guid: 3ae451ca8391641499f5323d11a8bd4e, type: 2}
   materials:
     materialImportMode: 2
@@ -36,8 +56,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -60,6 +78,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -77,6 +96,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: 32
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

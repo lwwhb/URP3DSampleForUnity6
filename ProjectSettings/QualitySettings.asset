@@ -6,7 +6,7 @@ QualitySettings:
   serializedVersion: 5
   m_CurrentQuality: 3
   m_QualitySettings:
-  - serializedVersion: 4
+  - serializedVersion: 5
     name: Mobile Low
     pixelLightCount: 2
     shadows: 2
@@ -34,6 +34,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 0.25
+    meshLodThreshold: 1
     maximumLODLevel: 1
     enableLODCrossFade: 0
     streamingMipmapsActive: 0
@@ -67,7 +68,7 @@ QualitySettings:
     - GameCoreXboxOne
     - GameCoreScarlett
     - Windows Store Apps
-  - serializedVersion: 4
+  - serializedVersion: 5
     name: Mobile High
     pixelLightCount: 2
     shadows: 2
@@ -95,6 +96,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 1
+    meshLodThreshold: 1
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
@@ -125,7 +127,7 @@ QualitySettings:
     - GameCoreXboxOne
     - GameCoreScarlett
     - Windows Store Apps
-  - serializedVersion: 4
+  - serializedVersion: 5
     name: PC Low
     pixelLightCount: 2
     shadows: 2
@@ -153,6 +155,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 0.25
+    meshLodThreshold: 1
     maximumLODLevel: 1
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
@@ -186,7 +189,7 @@ QualitySettings:
     - PS5
     - GameCoreScarlett
     - Windows Store Apps
-  - serializedVersion: 4
+  - serializedVersion: 5
     name: PC High
     pixelLightCount: 2
     shadows: 2
@@ -214,6 +217,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 2
+    meshLodThreshold: 3
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0

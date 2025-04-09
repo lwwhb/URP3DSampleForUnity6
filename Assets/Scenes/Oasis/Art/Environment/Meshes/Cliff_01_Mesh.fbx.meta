@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 8cfa50ca931d332459a393c578a9e87d
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -13,6 +13,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cliff_01_mat
+    second: {fileID: 2100000, guid: 2bc9c95348d7c944da10101e4662af98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cliff_01_mat.002
     second: {fileID: 2100000, guid: 2bc9c95348d7c944da10101e4662af98, type: 2}
   - first:
       type: UnityEngine:Material
@@ -31,8 +36,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -76,6 +79,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

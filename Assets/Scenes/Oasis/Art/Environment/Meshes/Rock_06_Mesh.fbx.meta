@@ -1,13 +1,23 @@
 fileFormatVersion: 2
 guid: e5e7975e10d33634793b8e9c506b86e0
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rock_01_Mat
+    second: {fileID: 2100000, guid: 62b4e3dc87616c241a58ce1ac8be3756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_01_Mat.005
+    second: {fileID: 2100000, guid: 62b4e3dc87616c241a58ce1ac8be3756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_01_Mat.007
     second: {fileID: 2100000, guid: 62b4e3dc87616c241a58ce1ac8be3756, type: 2}
   materials:
     materialImportMode: 2
@@ -21,8 +31,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -66,6 +74,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

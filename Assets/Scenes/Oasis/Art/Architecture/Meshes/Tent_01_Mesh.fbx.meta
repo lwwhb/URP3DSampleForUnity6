@@ -1,13 +1,23 @@
 fileFormatVersion: 2
 guid: 0495c9e2322409d40a5b762a874f27ba
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tent_01_Mat
+    second: {fileID: 2100000, guid: ca2f48c088393c748995422c283483cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tent_01_Mat.007
+    second: {fileID: 2100000, guid: f6d077c1be6a246939ce3fe24c90113d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tent_01_Mat.008
     second: {fileID: 2100000, guid: ca2f48c088393c748995422c283483cb, type: 2}
   - first:
       type: UnityEngine:Material
@@ -26,8 +36,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -71,6 +79,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

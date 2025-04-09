@@ -1,13 +1,23 @@
 fileFormatVersion: 2
 guid: 8ec47b60f70329b47828fb81aed09e8d
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rock_01_Mat
+    second: {fileID: 2100000, guid: 62b4e3dc87616c241a58ce1ac8be3756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_01_Mat.001
+    second: {fileID: 2100000, guid: 62b4e3dc87616c241a58ce1ac8be3756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_01_Mat.003
     second: {fileID: 2100000, guid: 62b4e3dc87616c241a58ce1ac8be3756, type: 2}
   - first:
       type: UnityEngine:Material
@@ -27,6 +37,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Sand_04.001
+    second: {fileID: 2100000, guid: b7638c17d9ede8b45844e971dc0a842f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand_04.003
+    second: {fileID: 2100000, guid: b7638c17d9ede8b45844e971dc0a842f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: lambert1
     second: {fileID: 2100000, guid: d32c13e96f996af4fa3b1dc9f728c8b3, type: 2}
   materials:
@@ -41,8 +61,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -86,6 +104,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

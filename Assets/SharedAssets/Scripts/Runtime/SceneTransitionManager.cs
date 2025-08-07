@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 using Benchmarking;
-using Cinemachine;
+using Unity.Cinemachine;
 
 public class SceneTransitionManager : MonoBehaviour
 {
@@ -340,7 +340,7 @@ public class SceneTransitionManager : MonoBehaviour
         
         instance.m_CameraManager.FlythroughDirector = instance.screenScene.FlythroughDirector;
 
-        instance.m_MainCamera.GetComponent<CinemachineBrain>().m_WorldUpOverride =
+        instance.m_MainCamera.GetComponent<CinemachineBrain>().WorldUpOverride =
             instance.screenScene.WorldUpTransform;
         
         //Enable or disable post based on what the new scene needs

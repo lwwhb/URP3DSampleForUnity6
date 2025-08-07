@@ -1,4 +1,4 @@
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
@@ -20,7 +20,7 @@ public class PlayerManager : MonoBehaviour
     
     private bool m_InFlythrough;
     private float m_TimeIdle;
-    private CinemachineVirtualCamera m_VirtualCamera;
+    private CinemachineCamera m_VirtualCamera;
     private bool m_HasFocus;
     
     void Start()
@@ -43,7 +43,7 @@ public class PlayerManager : MonoBehaviour
             m_TouchInputCanvas.SetActive(true);
         }
         
-        m_VirtualCamera = GetComponentInChildren<CinemachineVirtualCamera>();
+        m_VirtualCamera = GetComponentInChildren<CinemachineCamera>();
     }
 
     void Update()
